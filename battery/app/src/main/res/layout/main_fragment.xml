@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        app:cardCornerRadius="10dp"
+        app:cardCornerRadius="20dp"
         app:cardElevation="0dp">
 
         <com.example.kotlin_test.ui.main.BatteryView
@@ -21,4 +21,7 @@
     </androidx.cardview.widget.CardView>
 
 
+    <com.example.kotlin_test.ui.main.BatteryWithOutRoundView
+        android:layout_width="300dp"
+        android:layout_height="150dp" />
 </LinearLayout>

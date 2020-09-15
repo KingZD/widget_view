@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <animation-list android:oneshot="false">
+            <item
+                android:drawable="@mipmap/b39"
+                android:duration="300" />
+            <item
+                android:drawable="@mipmap/alw"
+                android:duration="300" />
+        </animation-list>
+    </item>
+</layer-list>
